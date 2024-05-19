@@ -1,0 +1,9 @@
+{
+      "openai_api_key": "sk-xxx",
+      "clearbit_api_key": "sk_xxx",
+      "webhook_url": "sample.com",
+      "webhook_method": "POST",
+      "webhook_headers": {},
+      "gmail_credentials_file": "gmail_creds.json",
+      "lookback_time": 6
+}

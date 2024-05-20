@@ -10,7 +10,7 @@ Every SAAS app discovered is sent to the URL webhook configured that can be inte
 ## How it Works
 
 1. **Gmail Metadata Acquisition:** AppCatcher leverages the Gmail API to retrieve email metadata, including sender, recipient, subject, and timestamps. 
-2. **AI-Powered Analysis:** OpenAI's GPT-4 model analyzes the email metadata, categorizing emails as potential SaaS tool usage or marketing/non-tool related emails.
+2. **AI-Powered Analysis:** OpenAI's GPT-4o model analyzes the email metadata, categorizing emails as potential SaaS tool usage or marketing/non-tool related emails.
 3. **Company Enrichment:** If an email is identified as potential tool usage, Clearbit's API is used to gather detailed company information about the sender, including company name, logo, domain, and description.
 4. **Webhook Integration:** The combined analysis from OpenAI and Clearbit is sent to a user-defined webhook URL. This allows for seamless integration with other systems or custom analysis pipelines.
 
